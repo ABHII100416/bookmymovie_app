@@ -1,0 +1,33 @@
+.home {
+    margin: 0;
+}
+
+.upcoming-movie-header {
+    width: 100%;
+    background-color: #ff9999;
+}
+
+.upcoming-movie-header p {
+    font-size: 1rem;
+    padding: 8px;
+    text-align: center;
+    margin: 0 !important;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.movieList {
+    width: 76%;
+    margin: 16px;
+}
+
+.filters {
+    width: 24%;
+    margin: 16px;
+}
+
+.setMargin {
+    margin-bottom: 1rem !important;
+}

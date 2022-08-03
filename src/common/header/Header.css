@@ -1,0 +1,26 @@
+header {
+    height: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 16px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img {
+    height: 35px;
+    background-color: #ff7f7f;
+    animation: logoAnimation 8s linear infinite;
+}
+
+@keyframes logoAnimation {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
